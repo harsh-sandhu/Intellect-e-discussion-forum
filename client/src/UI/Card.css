@@ -1,0 +1,23 @@
+.add {
+     background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 3px;
+    /* justify-content:center;
+    align-items:center; */
+     max-width: 40rem;
+    min-width: 8rem;
+    display: block;
+    margin:4rem auto;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    padding:1rem 2rem;
+    position: relative;
+     
+  }
+
+  @media (max-width:600px){
+    .add{
+      margin:4rem 1rem;
+      /* min-height:80vh */
+    }
+  }
